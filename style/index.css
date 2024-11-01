@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-adjust{
+    font-family: Meow Script;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bannar{
+    display: flex;
+    
+    padding: 0 150px 0 150px;
+    align-content: center;    
+}
+
+.bannar-content{
+    margin-top: 130px;
+    padding: 10px;
+}
+
+
+.btn-argmt{
+    margin-top: 50px;
+    gap: 2px;
+}
+
+.heading{
+    background-color: #453d3d;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+    padding: 15px 0 0 0;
+
+
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    padding: 2px;
+    
+    
+    
+}
+
+nav ul{
+    display: flex;
+    border: 2px solid rgb(29, 28, 28);
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+nav li a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #FFFFFF;  
+}
+
+.adjustment{
+   padding: 10px 0;
+   font-size: medium; 
+}
+
+.dot{
+       height: 25px;
+        width: 25px;
+        background-color: red;
+        border-radius: 50%;
+        float: left;
+        
+      }
+
+
+.box-1{
+  border: 2px solid;
+  height: 70px;
+  width: 250px; 
+  border-radius: 12px;
+  color: white;
+  background: linear-gradient(to right, rgb(193, 180, 180) , gray);
+  text-align: center;
+  padding-top: 10px;
+  border: none;
+  position: relative;
+  top: 150px;
+  right: 100px;
+    
+    
+}
+
+.vd-tutorial{
+    background: linear-gradient(to right, rgb(193, 180, 180) , gray);
+   color: white;  
+   position: relative;
+   top: 460px;
+   left: 100px;
+   
+}
+
+.img-fit{
+    max-width: 100%;
+}
+
+.img-running{
+    max-width: 100%;
+}
+
+@media screen and (max-width:576px){
+    .adjustment,
+    .fit-ness,
+    nav ul li a{
+        flex-direction: column;
+        align-items: center;
+    }
+    .practise-section{
+        flex-direction: column;
+    }
+    
+    .running-section{
+        flex-direction: column;
+        padding-right: 50px;
+    }
+    
+    .img-exercise,
+    
+    .exercise{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bmi-main-section,.form-entry{
+        flex-direction: column;
+        
+    }
+
+.coach-team{
+    flex-direction: column;
+}
+    
+}
+
+/* Change habit */
+
+.change-habit{
+    background-color: black;
+    
+}
+
+.title{
+    text-align: center;
+    padding-top: 20px;
+}
+.title-head{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.title-description{
+    color: #453d3d;
+}
+
+.practise-section{
+    display: flex;
+    padding-left: 190px;
+
+}
+
+.img-excercise{
+    border-radius: 100px;
+    margin-top: 40px;
+}
+
+.title-head{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.running-title{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.title-description{
+    padding-top: 40px;
+}
+
+.running-section{
+    display: flex;
+    padding-left: 190px;
+    column-gap: 250px;
+    padding-top: 50px;
+    background-color: #453d3d;
+    border-radius: 40px;
+    margin: 100px;
+}
+
+.img-running{
+    width: 450px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+    
+}
+
+.btn-join,.running-description{
+    margin-top: 10px;
+}
+
+/* training& & exercises */
+
+.training-exercises{
+    padding: 0px 300px 0px 190px;
+    margin-top: 20px;
+
+    
+}
+.trainin-title{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.training-description{
+    color: #453d3d;
+}
+.img-exercise{
+    width: 350px;
+}
+
+.img-exercise{
+    height: 100%;
+    width: 100%;
+}
+.exercise{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;    
+}
+
+.training-description{
+    padding-top: 10px;
+}
+
+.calculate-bmi{
+    margin-top: 40px;
+    padding-left: 160px;
+}
+
+
+/* BMI calculation */
+
+
+
+ table, td, th {  
+    border: 1px solid;
+    text-align: left; 
+  }
+
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;  
+  }
+
+  .tbl-contain{
+    padding-left: 50px;
+  }
+  
+  th, td {
+    width: 150px;
+    color: #453d3d;
+    height: 50px;
+    text-align: center;
+    
+
+  }
+  th{
+    color: #FFFFFF;
+    font-weight: bold;
+    
+  }
+
+  
+  
+  .bmi-main-section{
+    display: flex;
+    margin-top: 50px;
+  }
+
+
+  form{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    column-gap: 4px;
+    margin-top: 60px;
+    
+  }
+  input[type=text],#gender{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #453d3d;
+  }
+  select{
+    width: 200%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #453d3d;
+    color: dimgray;
+    
+  }
+
+  .calculate{
+  width: 100%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  } 
+
+ .form-entry{
+    padding-left: 200px;
+ }
+
+ /* Trainer section */
+
+ .team-title{
+    text-align: center;
+    margin-top: 40px;
+ }
+
+ .img-section{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   padding: 0 300px 0 300px;
+   column-gap: 10px;
+   row-gap: 10px;
+   margin-top: 20px;
+   border-radius: 100px;
+   
+ }
+
+ .img-coach{
+    width: 300px;
+   height: 300px;
+   border-radius: 10px;
+   margin-top: 10px;
+    
+ }
+  .contact-info h1{
+    color: #FFFFFF;
+  }
+
+  .contact-info h5{
+    color: #453d3d;
+
+  }
+
+  .contact-details{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    line-height: 25px;
+  }
